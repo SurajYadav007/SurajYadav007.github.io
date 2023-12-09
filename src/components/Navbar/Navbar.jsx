@@ -79,7 +79,7 @@ function Navbar() {
                         </a>
                     </div>
                 </div>
-                {/* For amall Screens */}
+                {/* For amall Screens    */}
                 <div id="smallScreenNavbar">
                     <div><h2>Portfolio</h2></div>
                     <div onClick={() => { setBurger(!burger) }}>
