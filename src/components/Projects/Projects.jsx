@@ -1,13 +1,13 @@
 import React from 'react'
 import greenParadise from "./projectImages/GreenParadise.png"
-import woodFans from "./projectImages/Telemedicine.jpg"
-import bewakoof from "./projectImages/Myntra.png"
+import Telemedicine from "./projectImages/Telemedicine.jpg"
+import Myntra from "./projectImages/Myntra.png"
 import "./Project.css"
 import { motion } from "framer-motion"
 
 const data = [
     {
-        img: woodFans,
+        img: Telemedicine,
         projectTitle: "Telemedicine",
         techStack: ["React", "Redux", "CSS", "Firebase", "RazorPay"],
         description: " Welcome to TeleMedicine, your premier destination for exquisite and sustainable medicine solutions that transform your living spaces into havens of comfort and healthy.",
@@ -23,7 +23,7 @@ const data = [
         appLink: "https://enchanting-klepon-de18e6.netlify.app/"
     },
     {
-        img: bewakoof,
+        img: Myntra,
         projectTitle: "Myntra",
         techStack: ["HTML", "CSS", "JavaScript",],
         description: "Myntra.com is an Indian e-commerce platform known for its trendy and quirky fashion, offering a wide range of casual clothing, accessories, and merchandise. it caters to individuals looking for unique and fun apparel choices.",

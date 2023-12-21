@@ -12,7 +12,7 @@ function HomeSection() {
         link.click();
 
         window.open(
-            "https://drive.google.com/file/d/1Q6lbtASrA4dGiOqcc485_jxZ3W9M5QFA/view?usp=sharing",
+            "https://drive.google.com/file/d/1ZKglhPT-yVLnAM6XyTHnHxbYBtYZKwbv/view?usp=sharing",
             "_blank"
         );
     };
