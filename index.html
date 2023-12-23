@@ -2,12 +2,371 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/Images/hero.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="index.js"></script>
+    <!-- =====BOX ICONS===== -->
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/img/surajPic.jpg" type="image/jpg">
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
     <title>Suraj Kumar Yadav (Portfolio)</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo"><img src="./assets/img/logo.jpg" alt="" srcset=""></a>
+          
+          
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Project</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hello! 👋🏻 <span class="home__title-color"></span><br />
+            
+
+
+            <div class="wrapper">
+              <ul class="dynamic-txts">
+                <li><span>I'am</span></li>
+                <li><span>Suraj  </span></li>
+                <li><span> Full-Stack</span></li>
+                <li><span> Web Developer</span></li>
+                
+              </ul> 
+              
+              </div>
+          </h1>
+          <a href="./assets/Suraj-Kumar-YadavResume.pdf"  target="_blank"onclick="openResume()" download class="button">Resume</a> 
+          
+        </div>
+
+        <div class="home__social">
+          <a href="https://www.linkedin.com/in/suraj-yadav-dev007/" target="_blank"class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/SurajYadav007" target="_blank" class="home__social-icon"><i class="bx bxl-github"></i></a>
+        </div>
+           
+
+        <div class="home__img">
+         <img src="./assets/img/surajPic.jpg" alt="" srcset="">
+         
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+
+          <div class="about-wrapper">
+            <h2 class="about__subtitle">I'am Suraj Kumar Yadav </h2>
+            <p class="about__text">
+              A passionate Full Stack Web Developer with strong problem-solving abilities, proficient in React Js, Mongo DB, Express Js, Next Js, javaScript and CSS keen to learn new technologies.
+
+              Looking forward to starting career in a fast growing startup driven by technology. I am committed to delivering excellence and contributing to the continued growth and success of innovative web applications. 
+            </p>
+            <div class="about_mail" > <a href="mailto:surajkyadav.9495@gmail.com"><i class='bx bxs-envelope'></i>surajkyadav.9495@gmail.com </a> <br>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Frontend</h2>
+            
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+            
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxl-react skills__icon'></i>
+                <span class="skills__name">React</span>
+              </div>
+            
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class='bx bxl-bootstrap skills__icon'></i>
+                <span class="skills__name">Bootstrap</span>
+              </div>
+            
+            </div>
+          </div>
+
+          <div class="backend">
+            <div>
+                <h2 class="skills__subtitle">Backend</h2>
+                
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <i class='bx bxl-nodejs skills__icon'></i>
+                    <span class="skills__name">Node.js</span>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <img class="skills__icon" src="https://dev-hardik.netlify.app/assets/img/express.png"  alt="" srcset="">
+                    <span class="skills__name">Express.js</span>
+                  </div>
+                
+                </div>
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <i class="fa-brands fa-envira skills__icon"></i>
+                    <span class="skills__name">MongoDB</span>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <i class='bx bxl-redux skills__icon'></i>
+                    <span class="skills__name">Redux</span>
+                  </div>
+                
+                </div>
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <i class='bx bxl-git skills__icon'></i>
+                    <span class="skills__name">Git</span>
+                  </div>
+                
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Project</h2>
+
+        <div class="work__container">
+          <div class="work_div">
+            <a href="" class="work__img">
+              <img src="assets/img/myntra.png" alt="" />
+            </a>
+            <h2 class="project_name">Myntra Clone</h2>
+            <h4>
+              MYNTRA PROJECT About :- This is a working clone of the online shopping platform MYNTRA. This project has been done in order to learn the basic working of the a website by implementing HTML, CSS, Javascript. working on this project was really fun and we learned a lot of new things that goes into building a website.
+            </h4>
+<p>Tech Stack : HTML | CSS | JavaScript</p>
+<div class="btn-div">
+  <a href="https://github.com/SurajYadav007/gitCollab" target="_blank"> <button class="button"><i class="fa-brands fa-github"></i>Github</button></a>
+  <a href="https://masai-myntra-fashion-clone.netlify.app/" target="_blank"><button class="button"><i class="fa-solid fa-link"></i>Live</button></a> 
+</div>
+        </div>
+        <div class="work_div">
+          <a href="" class="work__img">
+            <img src="assets/img/telemedicine.png" alt="" />
+          </a>
+          <h2 class="project_name">TeleMedicine</h2>
+          <h4>
+            PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs.
+          </h4>
+<p>Tech Stack : HTML | CSS | JavaScript | React | Redux</p>
+<div class="btn-div">
+<a href="https://github.com/VimalrajVR12/TeleMedicine" target="_blank"> <button class="button"><i class="fa-brands fa-github"></i>Github</button></a>
+<a href="https://telemedicineonlinehealthcarepharmacy.netlify.app/" target="_blank"><button class="button"><i class="fa-solid fa-link"></i>Live</button></a> 
+</div>
+      </div>
+            <div class="work_div">
+                <a href="" class="work__img">
+                  <img src="assets/img/greenpradise.png" alt="" />
+                </a>
+       
+                <h2 class="project_name">Green Paradise</h2>
+                <h4>
+                  Green Paradise is a fully functional e-commerce website designed for plant enthusiasts. It offers a wide variety of plants and gardening supplies, making it easy for users to browse, select, and purchase their favorite plants online. This project is built using HTML, CSS, and JavaScript to create an engaging and user-friendly online shopping experience for plant lovers.
+                </h4>
+    <p>Tech Stack : HTML | CSS | Javascript </p>
+<div class="btn-div">
+ <a href="https://github.com/Coders6754/Green-Paradise" target="_blank"> <button class="button"><i class="fa-brands fa-github"></i>Github</button></a>
+ <a href="https://enchanting-klepon-de18e6.netlify.app/" target="_blank"><button class="button"><i class="fa-solid fa-link"></i>Live</button></a> 
+</div>
+            </div>
+           
+            <div  class="work_div">
+                <a href="" class="work__img">
+                  <img src="assets/img/taxtim.png" alt="" />
+                </a>
+                <h2 class="project_name">TaxTim</h2>
+
+                <h4>
+                  TaxTim,TaxTim is an online tax filing platform designed to simplify the process of completing and filing tax returns for individuals and businesses. It utilizes a user-friendly interface and a question-and-answer format to guide users through their tax obligations . The website is optimised to work across a wide range of devices such as phones , tablets , Laptops ,etc. it's advisable to visit their website directly or contact their support team.
+                </h4>
+    <p>Tech Stack : HTML | CSS | Javascript | React | Chakra UI</p>
+    <div class="btn-div">
+      <a href="https://github.com/Sakuu89/TaxTim" target="_blank"> <button class="button"><i class="fa-brands fa-github"></i>Github</button></a>
+      <a href="https://super-peony-e095c9.netlify.app/" target="_blank"><button class="button"><i class="fa-solid fa-link"></i>Live</button></a> 
+    </div>
+            </div>
+          
+           
+            
+        </div>
+      </section>
+
+      <!--===== Education =====-->
+      <section class="contact section" id="education">
+        <h2 class="section-title">Education</h2>
+
+        <div class="education_container"> 
+        <div class="education__div_left">
+    <div class="ed_div">
+      <h2>Full Stack Web Development</h2>
+      <h4>Masai School, Bangalore</h4>
+    <div class="education_detail">
+      <p>Worked extensively on,</p>
+      <p>  - MERN Stack
+      </p>
+      <p>  - Data Structure and Algorithms
+      </p>
+      <p>- Soft skills</p>
+    </div>
+    </div>
+    <div class="education_icon">
+      <i id="ed_icon"class='bx bxs-book-reader'></i><span class="ed_span">December, 2023 - Present</span>
+    </div>
+        </div>
+        <div class="education__div_right">
+          <div class="education_icon">
+            <i id="ed_icon"class='bx bxs-book-reader'></i><span class="ed_span">july, 2015 - August,2018</span>
+          </div>
+          <div class="ed_right">
+            <h2>Bachelor of Arts</h2>
+            <h4>VBU, Hazaribagh</h4>
+            <p>CGPA-6.2
+            </p>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <div class="contact_left">
+            <h2>Dont be a stranger!</h2>
+            <h3>Let's connect!</h3>
+            <br>
+            <a href="mailto:surajkyadav.9495@gmail.com"><i class='bx bxs-envelope'></i>surajkyadav.9495@gmail.com </a> <br>
+           <a href="tel:+919060539495"><i class='bx bxs-phone'></i>+91 9060539495</a> 
+           <div class="contact_icon">
+             <a href="https://github.com/SurajYadav007" target="_blank"><i class='bx bxl-github skills__icon'></i></a> 
+             <a href="https://www.linkedin.com/in/suraj-yadav-dev007" target="_blank"><i class='bx bxl-linkedin skills__icon'></i></a> 
+            
+            </div>
+            </div>
+         <div class="contact_right">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="Submit"
+              class="contact__button button"
+            />
+          </form>
+         </div>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Suraj Kumar Yadav</p>
+      <div class="footer__social">
+        
+        <!-- <a href="https://twitter.com/ynniraj_" target="_blank" class="footer__icon"><i class="bx bxl-twitter"></i></a> -->
+        <a href="https://www.linkedin.com/in/suraj-yadav-dev007" target="_blank"><i class='bx bxl-linkedin skills__icon'></i></a> 
+            
+        <a href="https://github.com/SurajYadav007" target="_blank" class="footer__icon"><i class='bx bxl-github skills__icon'></i></a> 
+      </div>
+      <p class="footer__copy">&#169; Suraj</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
+
